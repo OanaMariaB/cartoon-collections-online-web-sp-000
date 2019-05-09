@@ -1,4 +1,4 @@
-def roll_call_dwarves(dwarfs)
+def roll_call_dwarves
   dwarfs_list = []
   dwarfs.each_with_index(1) do |dwarfs, i|
     dwarfs_list << "#{i}. #{dwarfs}"
